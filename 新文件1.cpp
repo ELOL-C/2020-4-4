@@ -7,6 +7,9 @@ int main()
 	num = 1;
 	while(num <= 100){
 	if (num == 1){
+			cout << num <<"不是質數\n";
+	}
+	else if (num >= 2 & num <=3){
 		cout << num <<"是質數\n";
 	}
 	else {
